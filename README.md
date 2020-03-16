@@ -8,7 +8,7 @@ The game can be run from the terminal using bash. The player can be moved using 
   
     javac Main.java
   
-    java Main
+The game can be launched by double clicking on Main.class
 
 
 
