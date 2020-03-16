@@ -3,4 +3,4 @@ Emerald Game
 
 
 
-![](https://github.com/LouisWW/CS_Assignment-1/blob/master/layout.png)
+![A screenshot of the layout](https://github.com/LouisWW/Emerald/blob/master/layout.png)
