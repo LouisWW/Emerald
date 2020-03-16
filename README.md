@@ -5,7 +5,9 @@ The emerald game constitues of a player trying to collect the diamonds without e
 The game can be runned from the terminal using bash 
 
   cd FinalGame
+  
   javac Main.java
+  
   java Main
 
 
