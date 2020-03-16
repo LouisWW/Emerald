@@ -18,7 +18,7 @@ class Bug extends Moveable
     public boolean isEdible() { return false; }
     public boolean hasMass() { return false; }
     public boolean isVulnerable() { return true; }
-    public String getIconFile(){  return "bug"+direction+".png";}
+    public String getIconFile(){  return "picture/bug"+direction+".png";}
 
     public char getMove()
     {
@@ -70,7 +70,7 @@ class Spaceship extends Moveable
     public boolean isEdible() { return false; }
     public boolean hasMass() { return false; }
     public boolean isVulnerable() { return true; }
-    public String getIconFile(){ return "spaceship"+direction+".png"; }
+    public String getIconFile(){ return "picture/spaceship"+direction+".png"; }
 
 
     public char getMove()

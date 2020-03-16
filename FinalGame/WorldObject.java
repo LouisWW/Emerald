@@ -122,7 +122,7 @@ class Space extends WorldObject
     public boolean hasMass() 		{ return false; }
     public boolean isVulnerable() 	{ return true; }
     public String toString() 		{ return "."; }
-    public String getIconFile() 	{ return "space.png"; }
+    public String getIconFile() 	{ return "picture/space.png"; }
 }
 
 /**
@@ -134,7 +134,7 @@ class Rock extends WorldObject
     public boolean hasMass() 		{ return true; }
     public boolean isVulnerable() 	{ return false; }
     public String toString() 		{ return "r"; }
-    public String getIconFile() 	{ return "rock.png"; }
+    public String getIconFile() 	{ return "picture/rock.png"; }
 }
 
 /**
@@ -147,7 +147,7 @@ class Dirt extends EdibleObject
     public boolean isVulnerable() 	{ return false; }
     public int getEmeraldValue() 	{ return 0; }
     public String toString() 		{ return "#"; }
-    public String getIconFile() 	{ return "dirt.png"; }
+    public String getIconFile() 	{ return "picture/dirt.png"; }
 }
 
 /**
@@ -159,7 +159,7 @@ class Emerald extends EdibleObject
     public boolean isVulnerable() 	{ return false; }
     public int getEmeraldValue() 	{ return 1; }
     public String toString() 		{ return "e"; }
-    public String getIconFile() 	{ return "emerald.png"; }
+    public String getIconFile() 	{ return "picture/emerald.png"; }
 }
 
 /**
@@ -171,7 +171,7 @@ class Diamond extends EdibleObject
     public boolean isVulnerable() 	{ return true; }
     public int getEmeraldValue() 	{ return 3; }
     public String toString() 		{ return "d"; }
-    public String getIconFile() 	{ return "diamond.png"; }
+    public String getIconFile() 	{ return "picture/diamond.png"; }
 }
 
 /**
@@ -199,7 +199,7 @@ class Alien extends Moveable
     }
     
     public String toString() 		{ return "a"; }
-    public String getIconFile() 	{ return "alien.png"; }
+    public String getIconFile() 	{ return "picture/alien.png"; }
 }
 
 /**
@@ -212,7 +212,7 @@ class Player extends Moveable
     public boolean hasMass() 		{ return false; }
     public boolean isVulnerable() 	{ return true; }
     public String toString() 		{ return "p"; }
-    public String getIconFile() 	{ return "player.png"; }
+    public String getIconFile() 	{ return "picture/player.png"; }
 }
 
 
